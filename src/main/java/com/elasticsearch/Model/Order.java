@@ -49,4 +49,76 @@ public class Order {
         this.amount = amount;
         this.payDate = payDate;
     }
+
+    public long getId() {
+        return id;
+    }
+
+    public void setId(long id) {
+        this.id = id;
+    }
+
+    public int getStoreId() {
+        return storeId;
+    }
+
+    public void setStoreId(int storeId) {
+        this.storeId = storeId;
+    }
+
+    public String getStoreName() {
+        return storeName;
+    }
+
+    public void setStoreName(String storeName) {
+        this.storeName = storeName;
+    }
+
+    public int getCategoryId() {
+        return categoryId;
+    }
+
+    public void setCategoryId(int categoryId) {
+        this.categoryId = categoryId;
+    }
+
+    public String getCategoryCode() {
+        return categoryCode;
+    }
+
+    public void setCategoryCode(String categoryCode) {
+        this.categoryCode = categoryCode;
+    }
+
+    public String getProductCode() {
+        return productCode;
+    }
+
+    public void setProductCode(String productCode) {
+        this.productCode = productCode;
+    }
+
+    public int getQuantity() {
+        return quantity;
+    }
+
+    public void setQuantity(int quantity) {
+        this.quantity = quantity;
+    }
+
+    public double getAmount() {
+        return amount;
+    }
+
+    public void setAmount(double amount) {
+        this.amount = amount;
+    }
+
+    public Date getPayDate() {
+        return payDate;
+    }
+
+    public void setPayDate(Date payDate) {
+        this.payDate = payDate;
+    }
 }
